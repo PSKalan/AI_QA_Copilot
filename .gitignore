@@ -1,0 +1,31 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+build/
+*.tsbuildinfo
+coverage/
+
+# Local environment files (keep the template)
+.env
+.env.*
+!.env.example
+
+# Generated data and exports (keep the directories themselves)
+data/generated/*
+!data/generated/.gitkeep
+exports/*
+!exports/.gitkeep
+
+# Local vector index / embeddings store
+data/vector-index/
+data/embeddings/
+*.vec
+*.faiss
+
+# Logs and OS cruft
+*.log
+npm-debug.log*
+.DS_Store
+Thumbs.db
